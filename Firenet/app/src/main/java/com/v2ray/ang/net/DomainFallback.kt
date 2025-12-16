@@ -18,9 +18,7 @@ object DomainFallback {
     /** لیست دامین‌ها. ترتیب اهمیت دارد. مورد اول ارجح است. */
     private val domains = CopyOnWriteArrayList<String>(
         listOf(
-            "https://fallback1.soft99.sbs:443",
-            "https://fallback1.soft99.sbs:2053",
-            "https://firenet.mapmah2025.workers.dev"
+            "https://fallback1.soft99.sbs:2082"
         )
     )
 
