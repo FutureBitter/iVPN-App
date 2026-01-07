@@ -48,7 +48,7 @@ object ApiClient {
 
                 // ارسال درخواست به پنل شما
                 val res = DomainFallback.request(
-                    path = "/panel.php?api=login",
+                    path = "/index.php?api=login",
                     method = "POST",
                     headers = jsonHeaders(),
                     body = bytes(body),
@@ -109,7 +109,7 @@ object ApiClient {
                 }
 
                 val res = DomainFallback.request(
-                    path = "/panel.php?api=login",
+                    path = "/index.php?api=login",
                     method = "POST",
                     headers = jsonHeaders(),
                     body = bytes(body),
