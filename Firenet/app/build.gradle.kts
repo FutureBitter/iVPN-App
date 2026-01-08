@@ -25,10 +25,10 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.firenet.plus"
+        applicationId = "com.ivpn.dev"
         minSdk = 23
         targetSdk = 35
-        versionCode = 1004
+        versionCode = 3
         versionName = "3.0.0"
         multiDexEnabled = true
 
@@ -44,10 +44,11 @@ android {
                         "arm64-v8a",
                         "armeabi-v7a",
                         "x86_64",
-                        "x86"
+                        "x86",
+"universal"
                     )
                 }
-                isUniversalApk = abiFilterList.isNullOrEmpty()
+                isUniversalApk = true
             }
         }
 
